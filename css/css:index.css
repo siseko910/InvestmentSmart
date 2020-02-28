@@ -15,6 +15,9 @@ background:#050522;
 color: white;
 width: 100%;
 }
+.naviagtion ul a:hover{
+  color:#CE9510;
+}
 .navigationbar ul {
 list-style: none;
 text-align: center;
@@ -85,17 +88,13 @@ header{
 hr {
   border: 0;
   width: 50px;
-  border-top: #CE9510;
+  border-top: 1px solid #CE9510;
 }
 .services h2 {
   text-align: center;
   font-size: 40px;
 }
 
-.gridcontainer{
-  display: grid;
-  grid-template-columns: auto auto;
-}
 
 h5{
   font-size: 15px;
@@ -113,7 +112,7 @@ h5{
 .Mission{
   background: #F2F3F8;
   padding:20px 20px 20px 250px;
-  width:100%;
+  width:80%;
 
 }
 .Beneifts{
@@ -122,6 +121,8 @@ h5{
   background-repeat: no-repeat;
   color: white;
   padding: 20px;
+  width:109%;
+  margin-left: -87px;
 
 }
 .Beneifts h4{
@@ -140,4 +141,42 @@ h5{
   height: 60px;
   color: white;
 
+}
+.Clients {
+  background:#050522;
+  background-size:cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 20px;
+  border: 1px solid #CDCDCD;
+  width: 95%;
+}
+.Clients h4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+#Clientsbutton{
+  padding: 15px;
+  width: 300px;
+  border:2px solid #CE9510;
+  background: #CE9510;
+  height: 60px;
+  color: white;
+}
+.gridcontainer-clients{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 30px;
+}
+#Togetherimage{
+  width: 50%;
+  padding-top: 50px;
+}
+.Together h4 {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+.Together{
+  width: 90%;
 }
